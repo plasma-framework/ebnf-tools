@@ -1,0 +1,49 @@
+body {
+    padding: 20px;
+}
+
+.border-notop td {
+  border-top: none;
+}
+ 
+td.grammar_diagram {
+    background-color: hsl(30,20%,95%);
+} 
+.sidenav {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* sidenav links */
+.sidenav a {
+  display: block;
+  color: black;
+  padding: 4px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidenav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidenav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidenav's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+ 
